@@ -1,0 +1,149 @@
+
+.cart-info {
+    background-color: #f2f2f2;
+}
+
+
+h4 {
+    color: #717171;
+    padding: 10px 0 10px 10px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+.cart-content {
+    background-color: #f2f2f2;
+}
+
+
+.cart-content .cart-content-card{
+    width: 100%;
+    background-color: #fff;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #f2f2f2;
+}
+
+
+.cart-delete img{
+    width: 14px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.cart-image-image {
+    border: 2px solid #f2f2f2;
+}
+
+.cart-image {
+    padding: 10px 0;
+}
+
+.cart-image img {
+    width: 100px;
+    padding: 10px 30px;
+}
+
+
+.cart-heading h3{
+    font-weight: 200;
+    padding: 10px 20px;
+}
+
+.cart-plus-minus {
+    padding: 10px 0;
+}
+
+.cart-plus-minus .add,.minus {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+
+.cart-plus-minus ul {
+    display: flex;
+    border: 3px solid #f2f2f2;
+}
+
+
+.cart-plus-minus ul li{
+    list-style: none;
+    width: 50px;
+    text-align: center;
+}
+
+
+/* cart total */
+.cart-total {
+    background-color: #f2f2f2;
+    margin: 0 0 10px 0px;
+}
+
+
+.cart-total h3 {
+    padding: 20px 0;
+    text-align: right;
+    font-weight: bold;
+    font-size: 30px;
+    color: #717171;
+}
+
+.cart-total span{
+    color: #4cbb17;
+    font-size: 30px;
+}
+
+
+/* CART BUTTON */
+.cart-button {
+    padding: 50px 0;
+}
+
+.cart-button-content ul {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+}
+
+
+
+.cart-button-content ul li a {
+    width: 500px;
+    padding: 10px;
+    background-color: #6e9900;
+    color: #fff;
+    text-decoration: none;
+    width: 100px;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+.cart-button .cart-button-content ul li .checkout {
+    width: 100px;
+}
+.buy {
+    width: 500px;
+}
+
+.cart-button-content ul li a:hover {
+    background-color:  #496600;
+    transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -ms-transition: 0.3s all;
+    -o-transition: 0.3s all;
+}
+
+
+
+
+
+
+
+
+

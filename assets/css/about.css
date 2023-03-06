@@ -1,0 +1,86 @@
+.about-text {
+     padding: 50px 0;
+}
+
+.about-image {
+    background-image: linear-gradient( rgba(0,0, 0, 0.80), rgba(0,0, 0, 0.80),rgba(0,0, 0, 0.80)),  url("../images/png/4-2-fruit-png-image.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100px;
+}
+
+h2 {
+    color: #fff;
+}
+
+span {
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about-text p{
+    width: 80%;
+    color: #717171;
+}
+
+.abouts-content {
+    display: flex;
+}
+
+.abouts-text {
+    width: 60%;
+}
+
+.abouts-image {
+    width: 40%;
+}
+
+.abouts-image img {
+    width: 80%;
+    padding: 50px 10%;
+}
+
+
+
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 800px) {
+    .max-width {
+        padding: 0 40px;
+        margin: auto ;
+    } 
+
+    .abouts-content {
+        display: block;
+    }
+
+    .about-text p{
+        width: 100%;
+    }
+    
+    .abouts-text {
+        width: 100%;
+    }
+    
+    .abouts-image {
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 600px) {
+    span {
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+

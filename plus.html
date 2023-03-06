@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .product-count{ display:none !important;  margin-top: 10px; width: 100%; display: -webkit-box;display: -ms-flexbox; display: -webkit-flex;display: flex;
+            background-color: #ef2525; color:#fff; border-radius: 10px;padding: 2px 0; font-size: 10px; }
+        .product-count .btn-qty{ font-size: 16px; cursor: pointer; padding: 3px 12px; }
+        .product-count .qty{ font-size: 14px;  padding: 3px 12px; -webkit-box-flex: 1; -ms-flex-positive: 1; -webkit-flex-grow: 1;
+            flex-grow: 1;text-align: center; border-left: 1px solid #fff;  border-right: 1px solid #fff;}
+        .product-count .qty input{ border:none; background:#ef2525; text-align:center; width:100%;}
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div class="product-count">			
+        								<span class="btn-qty" onclick="minus()">-</span>	
+                                        										
+                                        <span class="qty"><input type="text" value="1" id="count" name="count"></span>	
+                                        <span class="btn-qty" onclick="plus()">+</span>											
+    </div>
+
+
+
+    <script>
+        var count = 1;
+        var countEl = document.getElementById("count");
+        function plus(){
+            count++;
+            countEl.value = count;
+        }
+        function minus(){
+          if (count > 1) {
+            count--;
+            countEl.value = count;
+          }  
+        }
+    </script>
+</body>
+</html>

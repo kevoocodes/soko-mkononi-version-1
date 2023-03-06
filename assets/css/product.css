@@ -1,0 +1,127 @@
+.product-content {
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+}
+
+
+.product-image {
+    width: 40%;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.product-info {
+    width: 60%;
+}
+
+
+.product-image img {
+    width: 80%;
+    padding: 40px 10%;
+}
+
+.product-content h3{
+    padding: 0 20px;
+    font-weight: 100;
+}
+
+.product-content  p {
+    padding: 5px 20px;
+}
+
+.money {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.product-link {
+    display: flex;
+    padding-top: 10px;
+   
+}
+
+.product-link .wishlist {
+    background-color: #f2f2f2;
+    margin: 0 20px 0 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.product-link .wishlist img {
+    width: 20px;
+    padding: 10px;
+}
+
+.add-to-cart,.buy {
+    margin-top: 10px;
+}
+
+.buy {
+    padding: 0 5px 0 5px;
+}
+
+.product-link a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+    background-color: #88C000;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    box-shadow: 1px 1px 6px #000;
+}
+
+
+.product-link a:hover{
+    background-color: #5b8000;
+    color: #fff;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+@media (max-width: 615px)  {
+    .product-content {
+        display: block;
+    }
+    .product-image {
+        width: 100%;
+       
+    }
+    
+    .product-info {
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .product-link a  {
+        font-size: 12px;
+    }
+
+    .product-link .wishlist img {
+        width: 20px;
+        padding: 8px;
+    }
+}
+
+

@@ -1,0 +1,44 @@
+p {
+    color: #717171;
+    font-size: 16px;
+    padding: 0 4%;
+}
+
+
+.customer-infomation {
+    padding: 20px 0;
+    /* border: 1px solid #f2f2f2; */
+}
+
+
+.customer {
+    font-size: 10px;
+}
+
+
+.payment-information .ab {
+    width: 90%;
+    padding: 0 5%;
+}
+
+.payment-information .ab ul {
+    list-style: none;
+}
+
+.payment-information .ab ul li {
+    text-align: left;
+    padding: 40px 0;
+}
+
+.payment-information .ab ul li  input,img, .pesa{
+    float: left;
+}
+
+.payment-information .ab ul li img {
+    padding-left: 20px;
+    width: 40px;
+}
+
+#tigo, #hallo {
+    width: 60px;
+}
