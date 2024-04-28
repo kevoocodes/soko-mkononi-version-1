@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta charset="UTF-8" name="Kelvin Aron Msindai" content="Fullstack-developer">
@@ -7,25 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOKO MKONONI</title>
 
-       <!-- CSS LINKS -->
-       <link rel="stylesheet" href="assets/css/style.css">
-       <link rel="stylesheet" href="assets/css/about.css">
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about.css">
 
 
 
-       <!-- FONTS LINKS -->
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-      <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap" rel="stylesheet">
 </head>
+
 <body>
-      <!-- TOP NAVIGATION -->
-      <section id="search" class="search">
+    <!-- TOP NAVIGATION -->
+    <section id="search" class="search">
         <div class="max-width">
             <div class="search-content">
                 <div class="heading">
-                    
-                    <a href="index.html"><h1><img src="assets/images/logo/soko2.png" alt=""></h1></a>
+
+                    <a href="index.html">
+                        <h1><img src="assets/images/logo/soko2.png" alt=""></h1>
+                    </a>
                 </div>
 
                 <div class="search-input">
@@ -77,10 +81,10 @@
         <div class="max-width">
             <div class="abouts-content">
                 <div class="abouts-text">
-                    <p><span>Soko Mkononi</span> ni huduma inayokupa fursa ya  kufanya maamuzi ya nini,wakati gani na kwanini ule, mahali popote ulipo kwa kutumia kifaa chako ukipendacho cha mawasiliano</p>
-            
+                    <p><span>Soko Mkononi</span> ni huduma inayokupa fursa ya kufanya maamuzi ya nini,wakati gani na kwanini ule, mahali popote ulipo kwa kutumia kifaa chako ukipendacho cha mawasiliano</p>
+
                     <p>ifanye pesa yako ya thamani zaidi na soko mkononi, ni sarafu ile ile iliokupa bando la siku, fanya ikupe chakula bora chenye mboga mboga na matunda ya chaguo lako, imarisha afya pia epuka gharama na adha ya kwenda na kurudi sokoni, jifanyie maisha yenye thamani kwa gharama nafuu </p>
-        
+
                     <p>soko mkononi inakupa huduma ya kufanya manunuzi ya jumla na reja reja kwa ajili mahitaji ya nyumbani na mengine. Soko mkononi inakupa ofa za mapunguzo ya bei,bidhaa pendwa, machaguo ya bidhaa mbalimbali na vifurushi vya pamoja. Kamilsha mahitaji yako yote ukiwa nyumbani,kazini au hata barabarani yaani soko mkononi mwako </p>
 
                     <p>weka oda ya bidhaa ya chaguo lako, ongeza idadi ya machaguo yako katika orodha yako pendwa, weka ukipendacho kapuni. Gharama na picha za bidhaa zote zimewekwa pamoja. Tembea na soko mkononi mwako.</p>
@@ -107,16 +111,16 @@
                     </ul>
                 </div>
 
-               
+
 
                 <div class="subscriber">
                     <h4>Subscriber to our newleteer</h4>
                     <form action="">
                         <ul>
                             <li><input type="text" placeholder="Email Address"></li>
-                            <li><input type="submit"  value="OK"></li>
-                        </ul>  
-                        
+                            <li><input type="submit" value="OK"></li>
+                        </ul>
+
                     </form>
                 </div>
 
@@ -144,13 +148,14 @@
 
     <script>
         function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
         }
-        </script>
+    </script>
 </body>
+
 </html>

@@ -9,6 +9,7 @@ include("includes/form_handlers/login_handler.php"); //login handlers
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta charset="UTF-8" name="Kelvin Aron Msindai" content="Fullstack-developer">
@@ -16,30 +17,31 @@ include("includes/form_handlers/login_handler.php"); //login handlers
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SOKO MKONONI</title>
 
-       <!-- CSS LINKS -->
-       <link rel="stylesheet" href="assets/css/style.css">
-       <link rel="stylesheet" href="assets/css/about.css">
-       <link rel="stylesheet" href="assets/css/contact.css">
-       <link rel="stylesheet" href="assets/css/register.css">
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/register.css">
 
 
 
-       <!-- FONTS LINKS -->
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-      <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap" rel="stylesheet">
+    <!-- FONTS LINKS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&display=swap" rel="stylesheet">
 
-      <style>         
-            .error {
-                padding: 5px 30px 5px 30px;
-                color: #88C000;
-                font-size: 12px;
-            }
-      </style>
+    <style>
+        .error {
+            padding: 5px 30px 5px 30px;
+            color: #88C000;
+            font-size: 12px;
+        }
+    </style>
 </head>
+
 <body>
-      <!-- TOP NAVIGATION -->
-      <section id="search" class="search">
+    <!-- TOP NAVIGATION -->
+    <section id="search" class="search">
         <div class="max-width">
             <div class="search-content">
                 <div class="heading">
@@ -82,8 +84,8 @@ include("includes/form_handlers/login_handler.php"); //login handlers
         </div>
     </section>
 
-     <!-- ABOUT IMAGE -->
-     <section class="about-image" id="about-image">
+    <!-- ABOUT IMAGE -->
+    <section class="about-image" id="about-image">
         <div class="max-width">
             <h2>login </h2>
         </div>
@@ -96,27 +98,27 @@ include("includes/form_handlers/login_handler.php"); //login handlers
 
                 <h3>User Login</h3>
                 <div class="error">
-                      <?php if(in_array("Username or password was incorrect", $error_array)) echo  "Username or password was incorrect"; ?>
+                    <?php if (in_array("Username or password was incorrect", $error_array)) echo  "Username or password was incorrect"; ?>
                 </div>
                 <form action="" method="POST">
                     <div class="abc">
                         <input type="text" name="username" placeholder="Enter your username">
                     </div>
 
-                
+
 
                     <div class="abc">
                         <input type="password" name="password" placeholder="Password">
                     </div>
 
-                    
+
                     <div class="abc">
                         <input type="submit" name="login" value="LOGIN" class="button-click">
                     </div>
 
                     <p><a href="register.php">Have not an Accont? Please Register</a></p>
 
-                    
+
                 </form>
             </div>
         </div>
@@ -135,16 +137,16 @@ include("includes/form_handlers/login_handler.php"); //login handlers
                     </ul>
                 </div>
 
-               
+
 
                 <div class="subscriber">
                     <h4>Subscriber to our newleteer</h4>
                     <form action="">
                         <ul>
                             <li><input type="text" placeholder="Email Address"></li>
-                            <li><input type="submit"  value="OK"></li>
-                        </ul>  
-                        
+                            <li><input type="submit" value="OK"></li>
+                        </ul>
+
                     </form>
                 </div>
 
@@ -170,4 +172,5 @@ include("includes/form_handlers/login_handler.php"); //login handlers
     </footer>
 
 </body>
+
 </html>

@@ -12,9 +12,6 @@ if(isset($_POST['login'])) {
 
     if($check_login_query > 0) {
         
-        // header("location: homepage.php");
-        //remove session username
-        // $_SESSION['loginusername'] = "";
         $date = date("Y-m-d h:i:s");
         $extra = "homepage.php";
         $_SESSION['username'] = $username;
